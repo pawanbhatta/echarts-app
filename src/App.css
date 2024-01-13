@@ -1,0 +1,19 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+}
+button {
+  background-color: transparent;
+  display: block;
+  transition: all 0.1s linear;
+}
+button:hover {
+  background-color: #aaa5;
+}
+a {
+  filter: drop-shadow(0 0 0 currentColor);
+  transition: all 0.1s linear;
+}
+a:hover {
+  filter: drop-shadow(0 0 10px currentColor);
+}
